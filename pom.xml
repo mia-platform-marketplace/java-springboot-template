@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>mia_template_project_id_placeholder</groupId>
+	<artifactId>mia_template_service_name_placeholder</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>mia_template_service_name_placeholder</name>
+	<description>%CUSTOM_PLUGIN_SERVICE_DESCRIPTION%</description>
+	<url>%CUSTOM_PLUGIN_PROJECT_GITLAB_PATH%</url>
+	<developers>
+			<developer>
+					<name>%CUSTOM_PLUGIN_CREATOR_USERNAME%</name>
+					<email>info@mia-platform.eu</email>
+					<url>https://www.mia-platform.eu/</url>
+			</developer>
+	</developers>
+	<licenses>
+			<license>
+					<name>Apache License, Version 2.0</name>
+					<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+					<distribution>repo</distribution>
+			</license>
+	</licenses>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>18</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+	  <finalName>${project.artifactId}</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
